@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gelu Tamang | Email Marketing Specialist</title>
+
+  <style>
+    :root {
+      /* Color System */
+      --navy: #0B1C2D;
+      --teal: #1FB6A6;
+      --offwhite: #F8FAFC;
+      --charcoal: #1A1A1A;
+
+      --radius: 14px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--offwhite);
+      color: var(--charcoal);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--teal);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* ---------- HEADER ---------- */
+
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 4rem 1.5rem;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    nav strong {
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      color: #cbd5e1;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .hero img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 50%;
+      border: 4px solid var(--teal);
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      color: #cbd5e1;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--teal);
+      color: #052f2b;
+      padding: 0.9rem 1.4rem;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(31, 182, 166, 0.35);
+    }
+
+    /* ---------- SECTIONS ---------- */
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 4rem 1.5rem;
+    }
+
+    section h2 {
+      font-size: 1.9rem;
+      margin-bottom: 1.5rem;
+      color: var(--navy);
+    }
+
+    .muted {
+      color: #475569;
+      max-width: 800px;
+    }
+
+    /* ---------- SERVICES ---------- */
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.8rem;
+      border-radius: var(--radius);
+      border-left: 5px solid var(--teal);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 0.6rem;
+      color: var(--navy);
+    }
+
+    /* ---------- CASE STUDY ---------- */
+
+    .case {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    }
+
+    ul {
+      margin-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    /* ---------- CTA ---------- */
+
+    .cta {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 4rem 1.5rem;
+    }
+
+    .cta h2 {
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    .cta p {
+      color: #cbd5e1;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero img {
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <strong>Gelu Tamang</strong>
+    <div>
+      <a href="#services">Services</a>
+      <a href="#case">Case Study</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <h1>Email Marketing Specialist</h1>
+      <p>
+        Helping small and local businesses increase repeat sales through
+        strategic, relationship-driven email marketing.
+      </p>
+      <p>📍 Wonju-si, South Korea</p>
+      <a class="btn" href="#contact">Book a Free Strategy Call</a>
+    </div>
+
+    <img src="image.jpg" alt="Gelu Tamang">
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="muted">
+    I’m an Email Marketing Specialist focused on helping small and local
+    businesses increase repeat sales using strategic email campaigns.
+    <br><br>
+    With HubSpot Email Marketing certification and hands-on campaign experience,
+    I build simple but effective email systems that nurture subscribers and
+    convert them into paying customers.
+    <br><br>
+    Email isn’t just about newsletters — it’s about long-term relationships
+    that generate consistent revenue.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Email Campaign Setup</h3>
+      <p>Strategy, segmentation, and launch planning.</p>
+    </div>
+
+    <div class="card">
+      <h3>Email Automation Systems</h3>
+      <p>Welcome flows, re-engagement, promotions, retention.</p>
+    </div>
+
+    <div class="card">
+      <h3>Email Copywriting</h3>
+      <p>High-converting copy designed to increase clicks and sales.</p>
+    </div>
+
+    <div class="card">
+      <h3>List Growth Strategy</h3>
+      <p>Lead magnets, sign-up forms, subscriber capture systems.</p>
+    </div>
+
+    <div class="card">
+      <h3>Email Audit</h3>
+      <p>Detailed review with clear improvement recommendations.</p>
+    </div>
+  </div>
+</section>
+
+<section id="case">
+  <h2>Case Study</h2>
+  <div class="case">
+    <h3>Local Restaurant Campaign</h3>
+    <p><strong>Goal:</strong> Increase delivery orders & collect student subscribers.</p>
+
+    <p><strong>Strategy:</strong></p>
+    <ul>
+      <li>Google Form sign-up with Free Lassi incentive</li>
+      <li>Email engagement sequence</li>
+      <li>Student-focused list segmentation</li>
+    </ul>
+
+    <p><strong>Results:</strong></p>
+    <ul>
+      <li>New subscriber list built</li>
+      <li>Higher customer engagement</li>
+      <li>Structured system for future promotions</li>
+    </ul>
+
+    <p><em>Results growing as campaign continues.</em></p>
+  </div>
+</section>
+
+<section>
+  <h2>Why Work With Me?</h2>
+  <ul>
+    <li>✔ Focused on revenue, not just emails</li>
+    <li>✔ Clear strategy before execution</li>
+    <li>✔ Simple systems businesses can maintain</li>
+    <li>✔ Long-term relationship approach</li>
+  </ul>
+</section>
+
+<section id="contact" class="cta">
+  <h2>Ready to turn your email list into revenue?</h2>
+  <p>Book a free strategy call or reach out directly.</p>
+  <a class="btn" href="mailto:gelu2.bomjan@gmail.com">gelu2.bomjan@gmail.com</a>
+</section>
+
+<footer>
+  © <span id="year"></span> Gelu Tamang
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
